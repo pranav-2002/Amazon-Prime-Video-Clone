@@ -1,0 +1,172 @@
+.login__banner {
+  background-image: url("E:/VS Code Projects/React_Projects/primevideo-clone/src/images/banner.jpg");
+  object-fit: contain;
+  height: 480px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: default;
+  margin-top: 70px;
+}
+
+.banner__contents {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding: 50px 5%;
+}
+
+.welcome {
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+  line-height: 48px;
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+.description {
+  color: #fff;
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 100;
+  line-height: 27px;
+  margin-top: 25px;
+}
+
+.join a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.join {
+  background-color: #0f79af;
+  text-align: center;
+  width: 240px;
+  padding: 15px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.entertainment {
+  height: 480px;
+  background-image: url("E:/VS Code Projects/React_Projects/primevideo-clone/src/images/second_tv.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  min-height: 70vh;
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  right: 0;
+  flex-direction: column;
+  color: #ffffff;
+  padding: 50px 5%;
+}
+
+.content__heading {
+  margin-top: 29px;
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+  line-height: 48px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.content__para {
+  margin-top: 26px;
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 100;
+  line-height: 27px;
+}
+
+.membership {
+  height: 480px;
+  background-image: url("E:/VS Code Projects/React_Projects/primevideo-clone/src/images/room_third.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  min-height: 70vh;
+}
+
+.content--left {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding: 50px 5%;
+}
+
+.FireStick {
+  height: 480px;
+  background-image: url("E:/VS Code Projects/React_Projects/primevideo-clone/src/images/fstick_fourth.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  min-height: 47vh;
+}
+
+.features {
+  height: 550px;
+}
+
+.features__img {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 5% 30px 5%;
+  object-fit: contain;
+}
+
+.features__headings {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -40px;
+}
+
+.features__paras {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.family {
+  height: 480px;
+  background-image: url("E:/VS Code Projects/React_Projects/primevideo-clone/src/images/bottom_fifth.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  min-height: 47vh;
+}
+
+.footer {
+  height: 130px;
+  background-color: #222;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__content img {
+  margin-top: 30px;
+  width: 110px;
+}
+
+.footer__text a {
+  text-decoration: none;
+  color: #0f79af;
+  font-size: 15px;
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+  margin-right: 10px;
+}
+
+.footer__text span {
+  color: #b1b1b1;
+  font-size: 15px;
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+}

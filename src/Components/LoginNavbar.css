@@ -1,0 +1,50 @@
+.LoginNav {
+  background-color: rgb(26, 36, 46);
+  height: 32px;
+  padding: 22px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+.LoginNav__content a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+.LoginNav__content {
+  color: #ffffff;
+  display: flex;
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+  font-weight: 450;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+.LoginNav__logo {
+  width: 115px;
+  object-fit: contain;
+  cursor: pointer;
+  position: fixed;
+  left: 40px;
+}
+
+.lang {
+  position: fixed;
+  right: 150px;
+  cursor: pointer;
+}
+
+.signIn {
+  position: fixed;
+  right: 40px;
+}
+
+.icon {
+  margin-right: 10px;
+}

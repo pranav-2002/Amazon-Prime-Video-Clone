@@ -1,0 +1,8 @@
+.banner{
+    height: 284px;
+    position: relative;
+    color: white;
+    object-fit: contain;
+    cursor: pointer;
+    margin-top: 74px;
+}

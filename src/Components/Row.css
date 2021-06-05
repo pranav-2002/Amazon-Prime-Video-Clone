@@ -1,0 +1,56 @@
+.row {
+  color: white;
+  margin-left: 20px;
+}
+
+.row h1 {
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 19px;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.row__posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.row__poster {
+  max-height: 320px;
+  object-fit: contain;
+  margin-right: 10px;
+  width: 100%;
+  transition: transform 450ms;
+}
+
+.row__poster--watching {
+  max-height: 200px;
+  object-fit: contain;
+  margin-right: 10px;
+  width: 100%;
+  transition: transform 450ms;
+}
+
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row__poster:hover {
+  transform: scale(1.2);
+  transition: 0.35s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.row__poster--watching:hover {
+  transform: scale(1.2);
+  transition: 0.35s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

@@ -1,0 +1,11 @@
+.jumbotron {
+  height: 500px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron img {
+  width: 600px;
+}
